@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="webpagestyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="C:\Users\chandu\Desktop\HCI PROJECT\images\logo.jpeg">
+                </div>
+                <ul>
+                    <li class="active"><a href="file:///C:/Users/chandu/Desktop/webpage.html">HOME</a></li>
+                    <li><a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/about.html" target="blank">ABOUT</a></li>
+                    <li><a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/HCI%20PROJECT/code11/service.html" target="blank">SERVICE</a></li>
+                    <li><a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/login.html" target="blank">LOGIN</a></li>
+                    <li><a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/registration.html" target="blank">SIGN UP</a></li>
+                    <li><a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/feedback.html" target="blank">FEEDBACK</a></li>
+                </ul>
+            </div>
+            <section class="section">
+                <div class="slider">
+                    
+                    <div class="slide">
+                        <div class="title">
+                            <h1>
+                                FASHION TRENDZ
+                            </h1>
+                        </div>
+                        <div class="button">
+                            <a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/HCI%20PROJECT/code11/des.html" class="btn" target="blank">Watch more</a>
+                            <a href="file:///C:/Users/chandu/Desktop/HCI%20PROJECT/contactus.html" class="btn" target="blank">Contact us</a>
+                        </div>
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+        
+                        <div class="st first">
+                            <img src="https://images7.alphacoders.com/314/314490.jpg" >
+                        </div>
+                        <div class="st">
+                            <img src="C:\Users\chandu\Desktop\HCI PROJECT\images\second.jpeg" >
+                        </div>
+                        <div class="st">
+                            <img src="C:\Users\chandu\Desktop\HCI PROJECT\images\third.jpeg" >
+                        </div>
+                        <div class="st">
+                            <img src="https://i.pinimg.com/originals/c6/5d/3b/c65d3b816bba75c6d0c353ec45bc8741.jpg" >
+                        </div>
+                        <div class="nav-auto">
+                            <div class="a-b1"></div>
+                            <div class="a-b2"></div>
+                            <div class="a-b3"></div>
+                            <div class="a-b4"></div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="nav-m">
+                        <label for="radio1" class="m-btn"></label>
+                        <label for="radio2" class="m-btn"></label>
+                        <label for="radio3" class="m-btn"></label>
+                        <label for="radio4" class="m-btn"></label>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript">
+                var counter=1;
+                setInterval(function(){
+                    document.getElementById("radio" + counter).checked=true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+                    }
+                },5000);
+            </script>
+        </header>
+        <footer>
+            <div class="footer-content">
+                <p>What's my style is not your style, and I don’t see how you can define it. It’s something that expresses who you are in your own way.!</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2021 Fashion Trendz. designed by <span>Eswar and Arun</span></p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
